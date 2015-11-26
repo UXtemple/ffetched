@@ -1,0 +1,32 @@
+{
+  "name": "ffetched",
+  "description": "A wrapper on farfetched to make you tests more succinct",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UXtemple/ffetched.git"
+  },
+  "keywords": [
+    "farfetched",
+    "mock",
+    "fetch",
+    "test"
+  ],
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UXtemple/ffetched/issues"
+  },
+  "homepage": "https://github.com/UXtemple/ffetched#readme",
+  "dependencies": {
+    "farfetched": "^1.2.0"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2",
+    "tape": "^4.2.2"
+  }
+}
